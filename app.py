@@ -49,7 +49,7 @@ def conduct_research():
         report = run_async(researcher.write_report())
         
         return jsonify({
-            'research_result': research_result,
+            'research_result': '',#research_result,
             'report': report
         })
     
